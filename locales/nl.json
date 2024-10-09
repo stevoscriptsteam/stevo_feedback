@@ -1,0 +1,15 @@
+{
+
+    "feedback_command" : "feedback",
+    "feedback_title" : "Server Feedback",
+    "webhook" : "**Feedback**: %s\n \n **Author**: %s *(%s)*\n \n-# Content in this message is not affiliated with Stevo Scripts",
+
+    "input" : {
+        "title" : "Title",
+        "title_description" : "Brief summary of feedback (eg. Prison System)",
+        "feedback" : "Feedback",
+        "feedback_description" : "Detailed summary of feedback",
+        "category" : "Feedback Category",
+        "checkbox" : "Do you pwomise this is sewious? *-*"
+    }
+}
