@@ -36,4 +36,6 @@ lib.callback.register('stevo_feedback:submit', function(source, feedback)
     local name = GetPlayerName(source)
     local identifier = stevo_lib.GetIdentifier(source)
     sendWebhook(name, identifier, feedback)
+
+    return true
 end)
