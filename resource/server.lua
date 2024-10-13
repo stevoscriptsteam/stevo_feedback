@@ -34,25 +34,29 @@ local function sendWebhook(name, identifier, data)
 end
 
 lib.callback.register('stevo_feedback:submittedForm', function(source, feedback)
+
+    if lastSubmitted[source] then 
+        if os.time() - lastSubmitted[source] < config.formCooldown then 
+            
+            local name = GetPlayerName(source)
+            local identifier = stevo_lib.GetIdentifier(source)
+
+            lib.print.info(('User: %s (%s) tried to exploit stevo_feedback'):format(name, identifier))
+
+            if config.dropCheaters then 
+                lastSubmitted[source] = nil
+                DropPlayer(source, 'Trying to exploit stevo_feedback')
+            end
+        end
+    end
+
     local name = GetPlayerName(source)
     local identifier = stevo_lib.GetIdentifier(source)
     sendWebhook(name, identifier, feedback)
 
-    local name = GetPlayerName(source)
-    local identifier = stevo_lib.GetIdentifier(source)
-
-
-
-    
-    if os.time() - lastSubmitted[source] < config.formCooldown then 
-        lib.print.info(('User: %s (%s) tried to exploit stevo_feedback'):format(name, identifier))
-        if config.dropCheaters then 
-            lastSubmitted[source] = nil
-            DropPlayer(source, 'Trying to exploit stevo_feedback')
-        end
-    end
-
     lastSubmitted[source] = os.time()
+
+    return true
 end)
 
 lib.callback.register('stevo_feedback:canSubmitForm', function(source)
