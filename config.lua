@@ -6,7 +6,10 @@ return {
         {label = '🚑 Ambulance', value = 'ambulance'}, 
         {label = '💣 Criminal', value = 'criminal'}, 
         {label = '🏎️ Vehicles', value = 'vehicles'}
-    }
+    },
+
+    formCooldown = 120, -- Cooldown in seconds between forms.
+    dropCheaters = true
     
 }
 
