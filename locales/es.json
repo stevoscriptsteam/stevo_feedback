@@ -1,15 +1,18 @@
 {
 
     "feedback_command" : "feedback",
-    "feedback_title" : "Server Feedback",
-    "webhook" : "**Feedback**: %s\n \n **Author**: %s *(%s)*\n \n-# Content in this message is not affiliated with Stevo Scripts",
+    "feedback_title" : "Comentarios del Servidor",
+    "webhook" : "**Comentario**: %s\n \n **Autor**: %s *(%s)*\n \n-# El contenido en este mensaje no está afiliado ni relacionado con Stevo Scripts",
+    "feedback_confirmation" : "Retroalimentación recibida",
+    "feedback_cooldown" : "Has enviado retroalimentación demasiado recientemente",
+    
 
     "input" : {
-        "title" : "Title",
-        "title_description" : "Brief summary of feedback (eg. Prison System)",
-        "feedback" : "Feedback",
-        "feedback_description" : "Detailed summary of feedback",
-        "category" : "Feedback Category",
-        "checkbox" : "Do you pwomise this is sewious? *-*"
+        "title" : "Título",
+        "title_description" : "Una pequeña descripción del comentario (ej. Sistema de prisión)",
+        "feedback" : "Comentario",
+        "feedback_description" : "Una descripción detallada del comentario",
+        "category" : "Categoría",
+        "checkbox" : "Prometes deveritas esto es serio? 🥺"
     }
 }

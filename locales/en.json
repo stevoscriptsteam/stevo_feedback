@@ -3,6 +3,8 @@
     "feedback_command" : "feedback",
     "feedback_title" : "Server Feedback",
     "webhook" : "**Feedback**: %s\n \n **Author**: %s *(%s)*\n \n-# Content in this message is not affiliated with Stevo Scripts",
+    "feedback_confirmation" : "Feedback Received",
+    "feedback_cooldown" : "You submitted feedback too recently",
 
     "input" : {
         "title" : "Title",
