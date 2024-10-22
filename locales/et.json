@@ -1,0 +1,17 @@
+{
+
+    "feedback_command" : "feedback",
+    "feedback_title" : "Serveri tagasiside",
+    "webhook" : "**Tagasiside**: %s\n \n **Tegija**: %s *(%s)*\n \n-# Selle sõnumi sisu ei ole Stevo Scripti-ga seotud",
+    "feedback_confirmation" : "Uus serveri tagasiside!",
+    "feedback_cooldown" : "Ära kiiruta serveri tagasiside saatmisel!",
+
+    "input" : {
+        "title" : "Pealkiri",
+        "title_description" : "Lühikokkuvõte tagasisidest (eg. Vangla süsteem)",
+        "feedback" : "Tagasiside",
+        "feedback_description" : "Tagasiside võiks olla detailne",
+        "category" : "Kategooria",
+        "checkbox" : "Kas sa arvad, et see on hull? *-*"
+    }
+}
