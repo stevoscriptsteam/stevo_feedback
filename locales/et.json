@@ -1,6 +1,5 @@
 {
 
-    "feedback_command" : "feedback",
     "feedback_title" : "Serveri tagasiside",
     "webhook" : "**Tagasiside**: %s\n \n **Tegija**: %s *(%s)*\n \n-# Selle sõnumi sisu ei ole Stevo Scripti-ga seotud",
     "feedback_confirmation" : "Uus serveri tagasiside!",

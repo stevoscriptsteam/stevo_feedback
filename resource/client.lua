@@ -20,4 +20,4 @@ local function feedbackInput()
     end
 end
 
-RegisterCommand(locale("feedback_command"), feedbackInput)
+RegisterCommand(config.command, feedbackInput)

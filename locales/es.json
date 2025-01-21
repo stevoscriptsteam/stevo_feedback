@@ -1,6 +1,5 @@
 {
 
-    "feedback_command" : "feedback",
     "feedback_title" : "Comentarios del Servidor",
     "webhook" : "**Comentario**: %s\n \n **Autor**: %s *(%s)*\n \n-# El contenido en este mensaje no está afiliado ni relacionado con Stevo Scripts",
     "feedback_confirmation" : "Retroalimentación recibida",
