@@ -1,4 +1,7 @@
 return {
+    
+    command = 'feedback',
+
     webhookColor = 0x156cbd,
 
     feedbackCategories = {

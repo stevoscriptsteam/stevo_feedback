@@ -1,5 +1,5 @@
 {
-    "feedback_command" : "feedback",
+
     "feedback_title" : "Server Feedback",
     "webhook" : "**Feedback**: %s\n \n **Auteur**: %s *(%s)*\n \n-# De inhoud van dit bericht is niet verbonden aan Stevo Scripts",
     "feedback_confirmation" : "Feedback ontvangen",
